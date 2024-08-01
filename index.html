@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header  -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css\style.css">
+    </head>
+
+<!-- ini body  -->
+    <body>
+        <nav class="nav">
+            <header>
+<!-- logo icon  -->
+                <div>
+                    <img class="logo-icon" src="assets\Logo.png"/>
+                </div>
+            </header>
+
+<!-- tombol navigasi  -->
+            <section class="nav-container">
+                <a class="nav-item" href="#home">Home</a>
+                <a class="nav-item" href="#ourpackage">Our Package</a>
+                <a class="nav-item" href="callus">Call us</a>
+            </section>
+        </nav>
+        <hr>
+        <main>
+
+<!-- content 1  -->
+            <article class="main-title">
+                <header>
+                    <h1>Your Trusted Travel Agent's</h1>
+                </header>
+                
+                <p>Your Happiness is our Happiness</p>
+            </article>
+
+            <section class="main-content">
+                <article class="main-content-item">
+                    <div class="main-content-image">
+                        <img class="myslides" src="assets/slide-bali.jpeg">
+                        <img class="myslides" src="assets/slide-france.jpeg">
+                        <img class="myslides" src="assets/slide-japan.jpg">
+                    </div>
+
+                    <div class="main-content-label">
+                        <p>"Liburan jadi menyenangkan bersama travel Agentku"</p>
+                    </div>
+
+                    <div class="main-item">
+                        <div class="item-icon"></div>
+
+                        <div>
+                            <h3 class="item-name">Muhamad Misbah</h3>
+                            <p class="item-name">Universitas Internasional</p>
+                        </div>
+                    </div>
+
+                </article>
+
+<!-- content form  -->
+                <form class="main-content-item">
+                    <h1 class="form-label">Contact Us</h1>
+                    <p class="form-label">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+
+                    <div class="form-group">
+
+                        <label class="form-name"for="name">Your Name:</label>
+                        <input class="form-input" type="text" id="input-name" placeholder="First and last name">
+
+                    </div>
+                    <div class="form-group">
+
+                        <label class="form-name" for="email">Email Address:</label>
+                        <input class="form-input" type="email" id="input-email" placeholder="example@email.com">            
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label class="form-label" for="interest">What are you interested in?</label>
+
+                        <select class="form-select" id="option">
+                          <option value="">Select option</option>
+                          <option value="option1">Bali</option>
+                          <option value="option2">Bandung</option>
+                          <option value="option2">Prancis</option>
+                          <option value="option2">Jepang</option>
+                          <option value="option2">Singapur</option>
+                          <option value="option2">Surabaya</option>
+                        </select>
+                      </div>
+                      <button class="button" type="button" onclick="formValidation()">submit</button>
+
+
+                </form>
+            </section>
+
+<!-- content 2  -->
+            <article class="item-content">
+                <h1>Our Package</h1>
+            </article>
+
+            <article class="package-item-top">
+                <div>
+                    <img src="assets/bali.jpeg" alt="Bali" />
+                    <h1>Bali</h1>
+                    <p style="margin-right: 25px;">Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+                    
+                <div>
+                    <img src="assets/japan.jpg" alt="Jepang" />
+                    <h1>Jepang</h1>
+                    <p style="margin-right: 35px;">Travel dan wisata di Jepang. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+                
+                <div>
+                    <img src="assets/singapore.jpg" alt="Singapur" />
+                    <h1>Singapur</h1>
+                    <p>
+                    Travel dan wisata di Singapur. Kunjungi cagar budaya dan
+                    kuliner yang menarik
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="package-item-top">
+                <div>
+                    <img src="assets/bandung.jpg" alt="Bandung" />
+                    <h1>Bandung</h1>
+                    <p>Travel dan wisata di Bandung. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                </div>
+
+                <div>
+                    <img src="assets/surabaya.jpeg" alt="Surabaya" />
+                    <h1>Surabaya</h1>
+                    <p>
+                    Travel dan wisata di Surabaya. Kunjungi cagar budaya dan
+                    kuliner yang menarik
+                    </p>
+                </div>
+
+                <div>
+                    <img src="assets/france.jpeg" alt="France" />
+                    <h1>France</h1>
+                    <p>
+                    Travel dan wisata di Prancis. Kunjungi cagar budaya dan
+                     kuliner yang menarik
+                    </p>
+                </div>
+
+            </article>
+
+              <section class="call-content">
+                <div class="call-content">
+                  <h1>Your Closing Argument Headline</h1>
+                  <div class="call-item">
+                    <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque,
+                      euismod sed justo quis, convallis tincidunt risus. Phasellus
+                      fringilla odio vel erat fringilla</p>
+                  </div>
+                  <button id="callusbutton">CALL TO ACTION</button>
+                  <hr/>
+                </div>
+            </article>
+        </main>
+<!-- footer  -->
+        <footer class="footer-content">
+            <div>
+              <u><p>Terms of Service <br>Privacy Policy</p></u>
+            </div>
+            <a href="https://www.linkedin.com/in/muhamad-misbah-1aa9991b3/">
+              <p id="copyright">&copy; 2024 Muhamad Misbah</p>
+            </a>
+          </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
